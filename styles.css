@@ -58,9 +58,7 @@ nav a {
 .nav-list a:hover,
 .nav-list a:focus,
 .kontakt-list a:hover,
-.kontakt-list a:focus,
-address p:hover,
-address a:hover {
+.kontakt-list a:focus {
   color: var(--blue);
 }
 .kontakt-list {
@@ -170,6 +168,10 @@ footer a {
 address {
   font-style: normal;
 }
+address a:hover {
+  color: var(--white);
+}
+
 address p {
   color: var(--white);
   font-size: 14px;
