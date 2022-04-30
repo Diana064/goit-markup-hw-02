@@ -33,8 +33,11 @@ h2 {
 }
 button {
   cursor: pointer;
+  /* border: none; */
 }
-
+.active {
+  color: var(--blue);
+}
 /* main page */
 /* header */
 
@@ -81,12 +84,15 @@ address a:hover {
 }
 .hero button {
   background-color: var(--blue);
-  border: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+  color: var(--white);
+}
+.hero button:hover {
+  background-color: #2195f3b0;
 }
 
 /* end section hero */
@@ -126,7 +132,7 @@ address a:hover {
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
   list-style: none;
 }
 .team li > h3 {
@@ -185,8 +191,7 @@ address a {
 }
 .portfolio button {
   background-color: var(--portfolio-button);
-  border-radius: 4px;
-  border: none;
+  /* border-radius: 4px; */
   color: var(--text-color);
   font-weight: 500;
   font-size: 16px;
@@ -204,9 +209,9 @@ address a {
   width: 370px;
   height: 294px;
 }
-.portfolio-img li {
+/* .portfolio-img li {
   border: 1px solid var(--portfolio-pages);
-}
+} */
 .portfolio-img li > h3 {
   color: var(--text-color);
   font-weight: 700;
