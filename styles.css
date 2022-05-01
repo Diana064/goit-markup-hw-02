@@ -2,7 +2,7 @@
   --text-color: #212121;
   --blue: #2196f3;
   --white: #ffffff;
-  --lite-grey: #e5e5e5;
+  /* --lite-grey: #e5e5e5; */
   --dark-grey: #2f303a;
   --texr-p: #757575;
   --footer-text: rgba(255, 255, 255, 0.6);
@@ -10,7 +10,8 @@
   --portfolio-button: #f5f4fa;
 }
 body {
-  font-family: Roboto, sans-serif, monospace;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--text-color);
   background-color: var(--white);
   letter-spacing: 0.03em;
@@ -45,15 +46,23 @@ nav {
   text-decoration: none;
 }
 nav a {
+  font-size: 26px;
   color: var(--text-color);
   text-decoration: none;
 }
 .web {
+  font-size: 26px;
   color: var(--blue);
 }
 
 .nav-list {
   list-style: none;
+}
+.nav-list a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-list a:hover,
 .nav-list a:focus,
@@ -73,6 +82,10 @@ nav a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
 /* end header */
 /* main */
 /* section hero */
@@ -81,6 +94,7 @@ nav a {
   color: var(--white);
 }
 .hero button {
+  font-family: "Roboto";
   background-color: var(--blue);
   font-weight: 700;
   font-size: 16px;
@@ -97,7 +111,7 @@ nav a {
 /* section quality */
 .quality {
   font-size: 14px;
-  background-color: var(--lite-grey);
+  background-color: var(--white);
 }
 .quality li {
   list-style: none;
@@ -107,6 +121,7 @@ nav a {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.14;
+  font-size: 14px;
 }
 .quality li > p {
   color: var(--texr-p);
@@ -116,7 +131,7 @@ nav a {
 /* end section quality */
 /* section work */
 .work {
-  background-color: var(--lite-grey);
+  background-color: var(--white);
 }
 .work li {
   list-style: none;
@@ -160,7 +175,6 @@ footer {
 }
 footer a {
   color: var(--text-color);
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -193,6 +207,7 @@ address a {
 }
 .portfolio button {
   background-color: var(--portfolio-button);
+  font-family: "Roboto";
   /* border-radius: 4px; */
   color: var(--text-color);
   font-weight: 500;
